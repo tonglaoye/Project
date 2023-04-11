@@ -1,0 +1,1 @@
+g++ -o "/home/zgh/projects/Web_Server_C/bin/x64/Debug/Web_Server_C.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/zgh/projects/Web_Server_C/obj/x64/Debug/main.o /home/zgh/projects/Web_Server_C/obj/x64/Debug/Server.o -lpthread
