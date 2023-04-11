@@ -1,0 +1,13 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.79.222”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  TaskQueue.cpp
+  test.cpp
+E:\c++project\C++_ThreadPool\C++_ThreadPool\TaskQueue.h(30,23): warning : conversion to ‘int’ from ‘std::queue<Task<int>, std::deque<Task<int>, std::allocator<Task<int> > > >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\c++project\C++_ThreadPool\C++_ThreadPool\TaskQueue.h(30,23): warning :    return m_queue.size();
+E:\c++project\C++_ThreadPool\C++_ThreadPool\TaskQueue.h(30,23): warning :                        ^
+  正在链接对象
+  C++_ThreadPool.vcxproj -> E:\c++project\C++_ThreadPool\C++_ThreadPool\bin\x64\Debug\C++_ThreadPool.out
